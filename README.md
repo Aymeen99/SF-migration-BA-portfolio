@@ -13,11 +13,11 @@ This repository contains a pre-migration impact assessment produced for the tran
 
 The assessment covers the full Salesforce implementation lifecycle across five steps:
 
-1. **Requirement Gathering** — stakeholder map, confirmed AS-IS architecture, functional & non-functional requirements
-2. **Solution Design** — gap analysis, AS-IS & TO-BE process diagrams, data model, automation design, integration requirements
-3. **Development** — build inventory, BA responsibilities, requirements traceability
-4. **Testing** — 13 test scenarios covering functional, edge case, bulk, security, and end-to-end flows
-5. **Deployment** — go-live checklist, scenario decision matrix, rollback plan
+1. **Requirement Gathering** - stakeholder map, confirmed AS-IS architecture, functional & non-functional requirements
+2. **Solution Design** - gap analysis, AS-IS & TO-BE process diagrams, data model, automation design, integration requirements
+3. **Development** - build inventory, BA responsibilities, requirements traceability
+4. **Testing** - 13 test scenarios covering functional, edge case, bulk, security, and end-to-end flows
+5. **Deployment** - go-live checklist, scenario decision matrix, rollback plan
 
 ---
 
@@ -25,8 +25,8 @@ The assessment covers the full Salesforce implementation lifecycle across five s
 
 - The root cause of manual line filling is a **data freshness lag** from the weekly ODS extract cycle (up to 7 days), not VBA fragility as initially assumed
 - Two migration scenarios were designed and assessed:
-  - **Scenario A** — Salesforce fully replaces Excel + VBA, with a direct SWB/Unity API providing real-time data (pending feasibility confirmation)
-  - **Scenario B** — Salesforce hybrid alongside the existing Part Master DB pipeline (implementable immediately)
+  - **Scenario A** - Salesforce fully replaces Excel + VBA, with a direct SWB/Unity API providing real-time data (pending feasibility confirmation)
+  - **Scenario B** - Salesforce hybrid alongside the existing Part Master DB pipeline (implementable immediately)
 - A direct SWB/Unity API connection, if confirmed, would eliminate the data lag entirely and is the most critical open question of the project
 
 ---
